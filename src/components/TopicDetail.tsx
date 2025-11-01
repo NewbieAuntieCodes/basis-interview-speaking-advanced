@@ -13,7 +13,9 @@ import {
     ContentBlock,
     ExpressionGrid,
     TopicImage,
-    ClickableHeader
+    SideBySideContainer,
+    SideBySideImageContainer,
+    SideBySideTextContainer,
 } from './App.styles';
 
 interface TopicDetailProps {
@@ -88,13 +90,26 @@ const TopicDetail: React.FC<TopicDetailProps> = ({ topic, onBack }) => {
                     )}
                     {section.example && (
                         <ContentBlock>
-                            <ClickableHeader onClick={() => toggleExampleVisibility(index)}>
-                                示范回答 {visibleExamples[index] ? '🔼' : '🔽'}
-                            </ClickableHeader>
+                            <BackButton onClick={() => toggleExampleVisibility(index)} style={{marginBottom: 0}}>
+                                {visibleExamples[index] ? 'Hide' : 'Check'}
+                            </BackButton>
                             {visibleExamples[index] && (
-                                <p style={{ whiteSpace: 'pre-wrap', background: '#f9f9f9', padding: '15px', borderRadius: '5px', fontStyle: 'italic' }}>
-                                    {section.example}
-                                </p>
+                                section.imageUrl ? (
+                                    <SideBySideContainer>
+                                        <SideBySideImageContainer>
+                                            <TopicImage src={section.imageUrl} alt="范文参考图片" style={{ margin: '0' }}/>
+                                        </SideBySideImageContainer>
+                                        <SideBySideTextContainer>
+                                            <p style={{ whiteSpace: 'pre-wrap', background: '#f9f9f9', padding: '15px', borderRadius: '5px', fontStyle: 'italic', margin: 0 }}>
+                                                {section.example}
+                                            </p>
+                                        </SideBySideTextContainer>
+                                    </SideBySideContainer>
+                                ) : (
+                                    <p style={{ whiteSpace: 'pre-wrap', background: '#f9f9f9', padding: '15px', borderRadius: '5px', fontStyle: 'italic', marginTop: '15px' }}>
+                                        {section.example}
+                                    </p>
+                                )
                             )}
                         </ContentBlock>
                     )}

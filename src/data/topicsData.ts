@@ -51,13 +51,47 @@ export const topicsData: Topic[] = [
                     { term: 'I think they feel...', definition: '我认为他们感觉……' },
                     { term: 'The picture makes me think of...', definition: '这张图片让我想起……' },
                 ],
-                example: `In this picture, I can see two men on a high mountain. The sky is clear and blue, suggesting it's a nice day for an outdoor adventure.
+                example: `This picture shows two men climbing a mountain. It looks like a sunny day because the sky is blue.
 
-The men are wearing professional climbing gear, including helmets, backpacks, and ropes. This tells me they are serious mountaineers. They are carefully walking on a rocky peak, with snowy mountains far away in the background.
+They are wearing special clothes for climbing, like helmets and big bags. They are walking carefully on the rocks. In the background, there are many mountains with snow on top.
 
-The man in front seems to be leading the way and looking down to find a safe path. The man behind is following him closely.
+One man is in the front, and the other man is following him. They look very focused.
 
-I think they are feeling focused and determined. Mountain climbing is very challenging, so they must pay close attention to every step. At the same time, they might feel excited and proud because the view from the top is probably amazing. They look like they are working together as a team to reach their goal.`
+I think they feel a little tired but also very excited. Climbing mountains is hard work, but the view from the top must be beautiful. They are working together like a good team.`
+            },
+            {
+                title: '二、生活场景类 (图片二)',
+                imageUrl: 'https://media.licdn.com/dms/image/v2/C4D12AQFBKVVBzYxGGA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1585311686401?e=2147483647&v=beta&t=jNv7y5XxLdxSD6AMJ2vKpdAW-pVsVBjMGp69GeOeT8s',
+                questions: [
+                    'Please describe this picture.',
+                    'What is the person in the picture doing?',
+                    'Where do you think this person is?',
+                    'What can you see outside the window?',
+                    'How do you think the person is feeling? Why?',
+                ],
+                thoughts: [
+                    '人物: 描述图片中的人物、宠物。',
+                    '动作: 描述他们在做什么，例如在家办公、开视频会议。',
+                    '地点: 描述环境，例如房间、书桌、窗外。',
+                    '物品: 描述房间里的物品，例如电脑、卫生纸、小狗的玩具。',
+                    '感受/氛围: 推断人物的情绪，以及窗外的特殊情况（病毒）暗示的背景。'
+                ],
+                expressions: [
+                    { term: 'This is a picture of...', definition: '这是一张关于……的图片。' },
+                    { term: 'In the picture, there is / there are...', definition: '在图片里，有……' },
+                    { term: 'The person is sitting at a desk.', definition: '这个人正坐在书桌前。' },
+                    { term: 'He / She is working from home.', definition: '他/她正在家办公。' },
+                    { term: 'Outside the window, I can see...', definition: '窗外，我能看到……' },
+                    { term: 'I think he / she feels...', definition: '我认为他/她感觉……' },
+                    { term: 'This picture reminds me of...', definition: '这张图片让我想起了……' },
+                ],
+                example: `In this picture, I see a person working at a desk in their room. They are sitting in front of a computer and seem to be in a video call with other people.
+
+The room looks like a home office. There is a dog resting on the floor and many rolls of toilet paper are on the floor too.
+
+Through the big window, I can see a city. But there are also some red virus-like things floating in the air. This probably means the person is staying home to be safe from a sickness outside.
+
+I think the person might feel a bit lonely because they can't go outside. But they can still talk to friends or coworkers on the computer, which is nice. The dog is also good company.`
             }
         ] 
     },

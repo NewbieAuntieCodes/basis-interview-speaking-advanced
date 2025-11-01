@@ -113,9 +113,11 @@ export const SectionTitle = styled.h3`
 
 export const TopicImage = styled.img`
     max-width: 100%;
-    height: auto;
+    max-height: 400px; /* Unified max height */
+    object-fit: contain; /* Maintain aspect ratio without cropping */
+    display: block;
+    margin: 0 auto 20px auto; /* Center horizontally, add bottom margin */
     border-radius: 8px;
-    margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 `;
 
@@ -158,6 +160,27 @@ export const ExpressionGrid = styled.div`
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 10px;
+`;
+
+export const SideBySideContainer = styled.div`
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-top: 15px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+`;
+
+export const SideBySideImageContainer = styled.div`
+    flex: 1;
+    min-width: 0;
+`;
+
+export const SideBySideTextContainer = styled.div`
+    flex: 1.5;
+    min-width: 0;
 `;
 
 
