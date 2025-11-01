@@ -3,6 +3,15 @@
  * SPDX-License-Identifier: Apache-2.0
 */
 
+export interface PictureItem {
+    title: string;
+    imageUrl: string;
+    questions: string[];
+    thoughts: string[];
+    expressions: (string | { term: string; definition: string })[];
+    example: string;
+}
+
 export interface TopicSection {
     title: string;
     imageUrl?: string;
@@ -10,6 +19,7 @@ export interface TopicSection {
     thoughts?: string[];
     expressions?: (string | { term: string; definition: string })[];
     example?: string;
+    pictureItems?: PictureItem[];
 }
 
 export interface Topic {

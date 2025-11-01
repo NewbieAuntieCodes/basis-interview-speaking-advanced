@@ -370,3 +370,83 @@ export const AnswerExplanation = styled.p`
     padding-left: 15px;
     margin-top: 15px !important;
 `;
+
+// Carousel styles
+export const CarouselContainer = styled.div`
+    position: relative;
+    overflow: hidden;
+`;
+
+export const CarouselSlide = styled.div`
+    padding: 0 40px; /* Space for arrows */
+    @media (max-width: 768px) {
+        padding: 0;
+    }
+`;
+
+export const NavArrow = styled.button`
+    position: absolute;
+    top: 200px; /* Position it roughly over the middle of the image */
+    transform: translateY(-50%);
+    background-color: rgba(74, 85, 104, 0.7);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+
+    &:hover {
+        background-color: #2d3748;
+    }
+
+    &:disabled {
+        background-color: rgba(113, 128, 150, 0.5);
+        cursor: not-allowed;
+    }
+
+    &.left {
+        left: 0px;
+    }
+
+    &.right {
+        right: 0px;
+    }
+    
+    @media (max-width: 768px) {
+        &.left {
+            left: 5px;
+        }
+        &.right {
+            right: 5px;
+        }
+    }
+`;
+
+export const DotsContainer = styled.div`
+    text-align: center;
+    padding: 20px 0 10px 0;
+`;
+
+export const Dot = styled.button<{ isActive: boolean }>`
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: ${({ isActive }) => (isActive ? '#4a5568' : '#cbd5e0')};
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 0;
+    transition: background-color 0.2s;
+    
+    &:hover {
+        background-color: #a0aec0;
+    }
+`;
