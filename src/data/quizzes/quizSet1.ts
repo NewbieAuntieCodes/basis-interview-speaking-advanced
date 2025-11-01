@@ -49,7 +49,7 @@ export const quizSet1: Quiz[] = [
     {
         id: 'quiz4',
         title: 'Passage 4: Birdy',
-        passage: "There is a big old tree ({1}) my house. A blue bird ({2}) in the tree. Its name is Birdy. How old is it? I don't know. Every day I go and ({3}) food to Birdy. The bird sees me and comes ({4}). I put some food in a small box. Birdy comes to the ({5}) and begins to ({6}) the food. How happy it is! After ({7}) it goes back to the ({8}). I ({9}) some food to Birdy every day. Birdy is very friendly, too. And it likes me. We are very good ({10}).",
+        passage: "There is a big old tree ({1}) my house. A blue bird ({2}) in the tree. Its name is Birdy. How old is it? I don't know. Every day I go and ({3}) food to Birdy. The bird sees me and comes ({4}). I put some food in a small box. Birdy comes to the ({5}) and begins to ({6}) the food. How happy it is! After ({7}) it goes back to the ({8}). I give ({9}) food to Birdy every day. Birdy is very friendly, too. And it likes me. We are very good ({10}).",
         questions: [
             { id: 1, options: ['in', 'near', 'on'], answer: 'near', explanation: '“Near”表示树离房子很近。' },
             { id: 2, options: ['speaks', 'reads', 'lives'], answer: 'lives', explanation: '“Lives”是描述动物居住地的正确动词。' },

@@ -430,6 +430,7 @@ export const NavArrow = styled.button`
 `;
 
 export const DotsContainer = styled.div`
+    position: relative;
     text-align: center;
     padding: 20px 0 10px 0;
 `;
@@ -448,5 +449,37 @@ export const Dot = styled.button<{ isActive: boolean }>`
     
     &:hover {
         background-color: #a0aec0;
+    }
+`;
+
+export const BottomNavArrowContainer = styled.div`
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    display: flex;
+    gap: 8px;
+`;
+
+export const BottomNavArrow = styled.button`
+    background: #718096;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+
+    &:hover:not(:disabled) {
+        background: #4a5568;
+    }
+
+    &:disabled {
+        background-color: #cbd5e0;
+        cursor: not-allowed;
     }
 `;

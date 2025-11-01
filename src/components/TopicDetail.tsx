@@ -21,6 +21,8 @@ import {
     NavArrow,
     DotsContainer,
     Dot,
+    BottomNavArrowContainer,
+    BottomNavArrow,
 } from './App.styles';
 
 interface TopicDetailProps {
@@ -87,7 +89,7 @@ const PictureCarousel: React.FC<{ section: TopicSection }> = ({ section }) => {
             <NavArrow className="left" onClick={goToPrevious} disabled={pictureItems.length <= 1}>
                 &#10094;
             </NavArrow>
-            <CarouselSlide>
+            <CarouselSlide key={currentIndex}>
                 <h4 style={{ textAlign: 'center', fontSize: '1.4em', color: '#4a5568', marginBottom: '20px' }}>{currentItem.title}</h4>
                 <TopicImage src={currentItem.imageUrl} alt={currentItem.title} />
                 
@@ -145,6 +147,14 @@ const PictureCarousel: React.FC<{ section: TopicSection }> = ({ section }) => {
                         aria-label={`Go to slide ${slideIndex + 1}`}
                     />
                 ))}
+                 <BottomNavArrowContainer>
+                    <BottomNavArrow onClick={goToPrevious} disabled={pictureItems.length <= 1}>
+                        &#10094;
+                    </BottomNavArrow>
+                    <BottomNavArrow onClick={goToNext} disabled={pictureItems.length <= 1}>
+                        &#10095;
+                    </BottomNavArrow>
+                </BottomNavArrowContainer>
             </DotsContainer>
         </CarouselContainer>
     );
