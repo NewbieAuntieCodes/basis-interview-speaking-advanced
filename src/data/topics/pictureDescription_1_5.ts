@@ -157,18 +157,19 @@ They seem to be at home, probably in their living room or bedroom. They are comp
             '故事: 想象一下他们是在比赛还是在休闲娱乐。',
         ],
         expressions: [
-            { term: 'In the picture, a man is playing golf.', definition: '图片中，一个男人正在打高尔夫。' },
-            { term: 'He is swinging a golf club.', definition: '他正在挥动高尔夫球杆。' },
-            { term: 'It looks like a sunny morning on a golf course.', definition: '这看起来像是在一个高尔夫球场阳光明媚的早晨。' },
-            { term: 'The man is wearing a green shirt and a white cap.', definition: '那个男人穿着一件绿色衬衫和一顶白色帽子。' },
-            { term: 'He looks very focused on his shot.', definition: '他看起来非常专注于他的击球。' },
-            { term: 'In the background, another person is watching.', definition: '在背景中，另一个人正在观看。' },
-            { term: 'The atmosphere seems calm and relaxing.', definition: '气氛看起来平静而放松。' },
+            { term: 'A man is playing golf on a sunny day.', definition: '一个男人在晴天打高尔夫。' },
+            { term: 'The sun is shining brightly.', definition: '阳光明媚。' },
+            { term: 'He is swinging his golf club.', definition: '他正在挥动高尔夫球杆。' },
+            { term: 'He looks very focused.', definition: '他看起来非常专注。' },
+            { term: 'In the background, another person is watching.', definition: '背景里，另一个人在观看。' },
+            { term: 'The place looks quiet and beautiful.', definition: '这个地方看起来安静又美丽。' },
+            { term: 'Playing golf is relaxing and fun.', definition: '打高尔夫既放松又有趣。' },
+            { term: 'People can enjoy both sport and nature.', definition: '人们可以同时享受运动和自然。' },
         ],
-        example: `This picture captures a man in the middle of a powerful golf swing on a beautiful, sunny day. The sun is low in the sky, suggesting it's either early morning or late afternoon, casting a golden glow over the green golf course.
+        example: `This picture shows a man playing golf on a sunny day. The sky is clear and blue, and the sun is shining brightly. The green grass looks fresh and clean. It seems to be morning or afternoon because the sunlight is soft.
 
-The main subject is a man wearing a light green polo shirt, beige pants, and a white cap. He is fully concentrated on his swing, with his body twisted and the golf club raised high after hitting the ball. His posture shows both skill and power.
+The man is wearing a light green shirt, beige pants, and a white cap. He is swinging his golf club and looks very focused. In the background, there is another person watching him play.
 
-In the background, standing further down the course, is another person, possibly a playing partner or a caddy, watching the shot. The entire scene is very peaceful and scenic, highlighting the focus and elegance of the sport of golf.`
+The place looks quiet and beautiful. I think playing golf here is relaxing and fun, and people can enjoy both sport and nature.`
     }
 ];

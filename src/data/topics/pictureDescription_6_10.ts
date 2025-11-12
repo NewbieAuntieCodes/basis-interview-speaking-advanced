@@ -96,6 +96,59 @@ The headphones are quite big on her small head, which adds to the charm of the p
 The mother is in the center, smiling as she uses large wooden tongs to mix a fresh green salad in a big yellow bowl. The father stands beside her, looking on and talking to her while holding a glass of white wine. He seems relaxed and happy. Their little daughter is sitting at the counter, watching her parents with interest.
 
 The kitchen is bright and modern, with white cabinets and a clean countertop filled with colorful bowls of vegetables like carrots and tomatoes. The scene feels very loving and peaceful. It suggests the joy of simple family activities like cooking together.`
+    },
+    {
+        title: '图片 9',
+        imageUrl: 'https://parents.koobits.com/wp-content/uploads/2020/08/homeschooling-picture.jpg',
+        questions: [
+            'Please describe this picture.',
+            'What is the boy in the picture doing?',
+            'What objects can you see on the desk?',
+            'How does the boy seem to feel? Why?',
+            'What do you think this picture is about? Learning or studying?',
+        ],
+        thoughts: [
+            '人物: 描述小男孩的外貌、衣着和专注的表情。',
+            '动作: 描述他正在做什么，例如认真地看书。',
+            '地点: 推测他所在的地点，例如书房、教室或是在家学习。',
+            '物品: 描述桌上的物品，例如地球仪、书本、彩笔，这些都暗示了学习的主题。',
+            '感受/氛围: 描述图片的氛围，例如安静、专注、好学。',
+        ],
+        expressions: [
+            { term: 'In the picture, a young boy is studying at a desk.', definition: '图片中，一个小男孩正在书桌前学习。' },
+            { term: 'He is wearing a red polo shirt.', definition: '他穿着一件红色的Polo衫。' },
+            { term: 'He is looking down at an open book, reading intently.', definition: '他正低头看着一本打开的书，读得很专注。' },
+            { term: 'On the desk, there is a globe, a stack of books, and a box of crayons.', definition: '书桌上有一个地球仪、一叠书和一盒彩笔。' },
+            { term: 'He looks very focused and absorbed in his reading.', definition: '他看起来非常专注，沉浸在阅读中。' },
+            { term: 'The scene suggests a theme of education and learning.', definition: '这个场景暗示了教育和学习的主题。' },
+        ],
+        example: `This picture shows a young boy sitting at a desk, completely focused on reading a book. He is wearing a red polo shirt and seems to be in a quiet study environment. On the desk around him, there are several items related to learning. To his left, there is a globe, and next to it, a box of colorful crayons. To his right, there's a neat stack of books. The boy is leaning over a large, open book, and his expression is one of deep concentration. This image beautifully captures a moment of quiet study and curiosity, suggesting the importance of learning and exploring the world through books.`
+    },
+    {
+        title: '图片 10',
+        imageUrl: 'https://castlerockmusic.com.au/wp-content/uploads/2017/11/schoolmusic.jpg',
+        questions: [
+            'Please describe this picture.',
+            'What are the children doing?',
+            'Where do you think this picture was taken? Why?',
+            'How do the children seem to feel?',
+            'What kind of class do you think this is?',
+        ],
+        thoughts: [
+            '人物: 描述一群孩子，他们的表情和动作，特别是前景中微笑的男孩。',
+            '动作: 描述他们在做什么，例如坐着上课，一些孩子拿着乐器。',
+            '地点: 描述场景，看起来像幼儿园或小学的教室，背景有玩具架。',
+            '物品: 描述孩子们手中的乐器，如木琴、沙锤、手鼓。',
+            '感受/氛围: 描述图片的氛围，例如快乐、有趣、充满音乐感。',
+        ],
+        expressions: [
+            { term: 'A group of children are sitting in a row.', definition: '一群孩子正坐成一排。' },
+            { term: 'They seem to be in a music class.', definition: '他们似乎在上音乐课。' },
+            { term: 'Some of them are holding musical instruments.', definition: '他们中的一些人拿着乐器。' },
+            { term: 'The boy in the foreground is smiling at the camera.', definition: '前景中的男孩正对着镜头微笑。' },
+            { term: 'The classroom looks cheerful and colorful.', definition: '教室看起来很愉快，色彩缤纷。' },
+            { term: 'They look happy and engaged.', definition: '他们看起来很开心，很投入。' },
+        ],
+        example: `This is a happy picture of some kids in a classroom. They are all sitting in a line on small chairs. The boy at the front is wearing a red shirt and looking at the camera with a big, happy smile. The other kids behind him are looking forward. Some are holding simple musical toys like a xylophone and maracas, so this is probably a music lesson. The classroom in the background is bright and has many toys on the shelves. It looks like a fun place for kids to learn. The whole picture feels very positive and joyful. The children seem to be having a great time doing a creative activity together. It's a wonderful photo about young children learning in school.`
     }
-    // 注意: 图片 9-10 的数据将在稍后添加
 ];
