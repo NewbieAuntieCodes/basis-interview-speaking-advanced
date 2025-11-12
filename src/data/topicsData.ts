@@ -165,6 +165,38 @@ They might be playing a computer game together, or maybe they are working on a s
 The boy on the left is wearing a dark blue striped shirt, and the boy on the right is in a light blue striped shirt. Both of them are looking down at their screens with great concentration. The boy on the right has a happy smile, which suggests he is enjoying whatever he is watching or playing.
 
 They seem to be at home, probably in their living room or bedroom. They are completely absorbed in their digital world. It looks like they are having a quiet and entertaining time together, even though they are interacting with their devices instead of each other.`
+                            },
+                            {
+                                title: '图片 5',
+                                imageUrl: 'https://golf-gakko.com/wp-content/uploads/2018/08/i-155357647.jpg',
+                                questions: [
+                                    'Please describe this picture.',
+                                    'What are the people in the picture doing?',
+                                    'Where do you think this picture was taken?',
+                                    'How would you describe the atmosphere?',
+                                    'Do you like playing golf? Why or why not?',
+                                ],
+                                thoughts: [
+                                    '人物: 描述正在打高尔夫的男人，他的姿势和衣着，以及背景中的另一个人。',
+                                    '动作: 描述男人的挥杆动作。',
+                                    '地点: 描述场景，例如高尔夫球场，绿草地，阳光明媚的天气。',
+                                    '感受/氛围: 描述图片的氛围，例如专注、放松、运动感。',
+                                    '故事: 想象一下他们是在比赛还是在休闲娱乐。',
+                                ],
+                                expressions: [
+                                    { term: 'In the picture, a man is playing golf.', definition: '图片中，一个男人正在打高尔夫。' },
+                                    { term: 'He is swinging a golf club.', definition: '他正在挥动高尔夫球杆。' },
+                                    { term: 'It looks like a sunny morning on a golf course.', definition: '这看起来像是在一个高尔夫球场阳光明媚的早晨。' },
+                                    { term: 'The man is wearing a green shirt and a white cap.', definition: '那个男人穿着一件绿色衬衫和一顶白色帽子。' },
+                                    { term: 'He looks very focused on his shot.', definition: '他看起来非常专注于他的击球。' },
+                                    { term: 'In the background, another person is watching.', definition: '在背景中，另一个人正在观看。' },
+                                    { term: 'The atmosphere seems calm and relaxing.', definition: '气氛看起来平静而放松。' },
+                                ],
+                                example: `This picture captures a man in the middle of a powerful golf swing on a beautiful, sunny day. The sun is low in the sky, suggesting it's either early morning or late afternoon, casting a golden glow over the green golf course.
+
+The main subject is a man wearing a light green polo shirt, beige pants, and a white cap. He is fully concentrated on his swing, with his body twisted and the golf club raised high after hitting the ball. His posture shows both skill and power.
+
+In the background, standing further down the course, is another person, possibly a playing partner or a caddy, watching the shot. The entire scene is very peaceful and scenic, highlighting the focus and elegance of the sport of golf.`
                             }
                         ]
                     }
