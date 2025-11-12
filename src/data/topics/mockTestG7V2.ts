@@ -44,22 +44,22 @@ export const mockTestG7V2Topic: Topic = {
                         '故事: "Sophia"可能是一个高级人工智能的名字，她正在接受某种测试，以模仿或理解人类的行为。鼓励的话语可能来自创造她的人，也可能是她自己的内心独白。',
                     ],
                     expressions: [
-                        { term: 'humanoid figure', definition: '人形人物' },
-                        { term: 'exposed circuitry', definition: '裸露的电路' },
-                        { term: 'CAPTCHA test', definition: '验证码测试' },
-                        { term: 'The irony is that...', definition: '讽刺的是...' },
-                        { term: 'This image raises questions about...', definition: '这张图片引发了关于...的问题' },
+                        { term: 'a human-like robot', definition: '像人的机器人' },
+                        { term: 'visible wires and computer parts', definition: '可见的电线和电脑零件' },
+                        { term: '"I\'m not a robot" check', definition: '“我不是机器人”验证' },
+                        { term: 'The funny/strange thing is that...', definition: '有趣/奇怪的是...' },
+                        { term: 'This picture makes me think about...', definition: '这张图片让我想到了...' },
                         { term: 'artificial intelligence (AI)', definition: '人工智能' },
-                        { term: 'consciousness', definition: '意识' },
-                        { term: 'the blurring line between humans and machines', definition: '人类与机器之间模糊的界限' },
+                        { term: 'the ability to think and feel', definition: '思考和感受的能力' },
+                        { term: 'it\'s hard to tell the difference between people and robots', definition: '很难区分人和机器人' },
                     ],
-                    example: `This is a very thought-provoking black and white drawing. It shows a humanoid figure sitting at a computer. The figure looks human from the side, but the top of its head is open, revealing complex circuitry, which tells us it's a robot or an android.
+                    example: `This is a very interesting black and white drawing. It shows a human-like robot sitting at a computer. The robot looks like a person from the side, but the top of its head is open, showing wires and computer parts inside. This tells us it's a robot.
 
-The robot is looking at a computer screen. On the screen, there is a CAPTCHA test with a box that says "I'm not a robot." This is very ironic because the character is, in fact, a robot trying to pass a test designed to keep robots out.
+The robot is looking at the computer screen. On the screen, there is an "I'm not a robot" check. This is very funny and strange because the character is actually a robot trying to pass a test that is made to stop robots.
 
-At the bottom of the picture, there's a caption that says, "You can do this, Sophia." This name might refer to Sophia, the famous real-life social humanoid robot. The message sounds like encouragement. It could be from a person watching, or maybe it's the robot's own internal thought, which makes the scene even more interesting.
+At the bottom of the picture, there are words that say, "You can do this, Sophia." This name could be for Sophia, a famous real robot. The message sounds like nice words to help her. It could be from a person watching, or maybe it's the robot's own thought, which makes the picture more interesting.
 
-This picture makes me think about the future of artificial intelligence. It questions what it means to be "human" and how we distinguish ourselves from advanced machines. It's a clever and slightly humorous take on a very complex topic.`
+This picture makes me think about the future of AI. It makes us ask, "What does it mean to be human?" and "How can we tell the difference between people and smart robots?" It's a smart and funny way to show a difficult idea.`
                 }
             ]
         }
