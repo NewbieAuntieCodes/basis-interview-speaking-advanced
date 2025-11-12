@@ -62,6 +62,46 @@ At the bottom of the picture, there are words that say, "You can do this, Sophia
 This picture makes me think about the future of AI. It makes us ask, "What does it mean to be human?" and "How can we tell the difference between people and smart robots?" It's a smart and funny way to show a difficult idea.`
                 }
             ]
+        },
+        {
+            title: '第三部分 选词填空',
+            quiz: {
+                id: 'quiz-g7-mock-test-v2',
+                title: 'Protecting the Environment',
+                passage: "People around the world are trying to ({1}) the environment. Many cities have problems with ({2}) because there are too many cars. Some people choose to ride a bike or take the bus to help reduce ({3}). Others plant trees and use less ({4}) to save energy. If everyone makes a small ({5}), the world will become cleaner and greener.",
+                questions: [
+                    { 
+                        id: 1, 
+                        options: ['save', 'hurt', 'forget'], 
+                        answer: 'save', 
+                        explanation: 'The phrase "trying to save the environment" is a common and logical expression for protecting nature. "Hurt" and "forget" do not make sense in this context.' 
+                    },
+                    { 
+                        id: 2, 
+                        options: ['air', 'water', 'land'], 
+                        answer: 'air', 
+                        explanation: 'The passage mentions "too many cars," which are a primary cause of air pollution. Therefore, "air" problems are the most relevant issue.' 
+                    },
+                    { 
+                        id: 3, 
+                        options: ['pollution', 'population', 'vacation'], 
+                        answer: 'pollution', 
+                        explanation: 'Riding a bike or taking a bus instead of driving a car is a way to "reduce pollution". "Population" and "vacation" are not related.' 
+                    },
+                    { 
+                        id: 4, 
+                        options: ['electricity', 'rice', 'sunlight'], 
+                        answer: 'electricity', 
+                        explanation: 'The goal is to "save energy." Using less "electricity" is a direct way to achieve this. "Rice" is food, and "sunlight" is a natural energy source, not something you "use less" of in this context.'
+                    },
+                    { 
+                        id: 5, 
+                        options: ['effort', 'mistake', 'rule'], 
+                        answer: 'effort', 
+                        explanation: 'The phrase "makes a small effort" means to contribute a little bit to achieve a larger goal. "Mistake" and "rule" do not fit the meaning of the sentence.'
+                    }
+                ]
+            }
         }
     ]
 };
