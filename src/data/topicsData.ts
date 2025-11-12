@@ -10,6 +10,7 @@ import { personalExperienceTopic } from './topics/personalExperience';
 import { schoolTopic } from './topics/school';
 import { studyTopic } from './topics/study';
 import { mockTestG7Topic } from './topics/mockTestG7';
+import { mockTestG7V2Topic } from './topics/mockTestG7V2';
 import { pictureDescription_1_5 } from './topics/pictureDescription_1_5';
 import { pictureDescription_6_10 } from './topics/pictureDescription_6_10';
 
@@ -47,7 +48,8 @@ export const appContentData: AppCategory[] = [
     {
         title: '模拟测试',
         topics: [
-            mockTestG7Topic
+            mockTestG7Topic,
+            mockTestG7V2Topic
         ]
     }
 ];

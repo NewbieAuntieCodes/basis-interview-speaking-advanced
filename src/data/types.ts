@@ -20,6 +20,7 @@ export interface TopicSection {
     expressions?: (string | { term: string; definition: string })[];
     example?: string;
     pictureItems?: PictureItem[];
+    quiz?: Quiz;
 }
 
 export interface Topic {

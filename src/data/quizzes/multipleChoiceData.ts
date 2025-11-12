@@ -8,5 +8,5 @@ import { quizSet2 } from './quizSet2';
 
 export const quizzes: Quiz[] = [
     ...quizSet1,
-    ...quizSet2
+    ...quizSet2,
 ];
