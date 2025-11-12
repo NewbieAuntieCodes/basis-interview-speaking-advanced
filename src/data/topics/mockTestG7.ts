@@ -106,13 +106,13 @@ export const mockTestG7Topic: Topic = {
                         { term: 'The future of technology', definition: '科技的未来' },
                         { term: 'It could be beneficial for humanity.', definition: '它可能对人类有益。' },
                     ],
-                    example: `This picture shows a humanoid robot standing in what looks like a modern kitchen. The robot has a sleek, white and black design and appears to be quite advanced.
+                    example: `This picture shows a robot that looks like a person in a modern kitchen. The robot is white and black, and it looks very smart.
 
-In its hands, the robot is holding a white mug, perhaps making coffee or tea. It seems to be performing a domestic task, suggesting a future where robots assist with daily chores. On the counter, there are other kitchen items like a coffee machine and some cups.
+In its hands, the robot is holding a white cup. It seems to be doing a household job, like making a drink. On the counter, there are other kitchen items, like a coffee machine and some cups. This suggests that in the future, robots might help us with daily work at home.
 
-The robot's posture is very human-like. It seems focused on its task. This image makes me think about the future of artificial intelligence and how robots will integrate into our daily lives. On one hand, it's exciting to imagine having help with housework. On the other hand, it also raises questions about technology and jobs.
+The robot stands like a person and looks very focused on its job. This picture makes me think about the future with smart robots and how they will become a part of our daily lives. On one hand, it is exciting to think about robots helping with housework. On the other hand, it also makes me wonder about what will happen to people's jobs.
 
-Overall, it's a very thought-provoking image about technology and the future.`
+Overall, it is a picture that makes you think a lot about technology and the future.`
                 }
             ]
         }
