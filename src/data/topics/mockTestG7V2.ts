@@ -74,31 +74,31 @@ This picture makes me think about the future of AI. It makes us ask, "What does 
                         id: 1, 
                         options: ['save', 'hurt', 'forget'], 
                         answer: 'save', 
-                        explanation: 'The phrase "trying to save the environment" is a common and logical expression for protecting nature. "Hurt" and "forget" do not make sense in this context.' 
+                        explanation: '“save the environment” 是一个固定搭配，意为“拯救环境”或“保护环境”。选项 “hurt”（伤害）与句意相反，而“forget”（忘记）在上下文中不合逻辑。因此，正确答案是 save。' 
                     },
                     { 
                         id: 2, 
                         options: ['air', 'water', 'land'], 
                         answer: 'air', 
-                        explanation: 'The passage mentions "too many cars," which are a primary cause of air pollution. Therefore, "air" problems are the most relevant issue.' 
+                        explanation: '后文提到“too many cars”（太多的汽车），汽车是造成空气问题（air problems）或空气污染的主要原因。虽然汽车也可能导致水和土地污染，但空气问题是与汽车最直接和最相关的问题。因此，正确答案是 air。' 
                     },
                     { 
                         id: 3, 
                         options: ['pollution', 'population', 'vacation'], 
                         answer: 'pollution', 
-                        explanation: 'Riding a bike or taking a bus instead of driving a car is a way to "reduce pollution". "Population" and "vacation" are not related.' 
+                        explanation: '骑自行车或乘坐公共汽车是为了“reduce pollution”（减少污染）。选项 “population”（人口）和 “vacation”（假期）与环保出行的目的无关。因此，正确答案是 pollution。' 
                     },
                     { 
                         id: 4, 
                         options: ['electricity', 'rice', 'sunlight'], 
                         answer: 'electricity', 
-                        explanation: 'The goal is to "save energy." Using less "electricity" is a direct way to achieve this. "Rice" is food, and "sunlight" is a natural energy source, not something you "use less" of in this context.'
+                        explanation: '句子的目标是“to save energy”（节约能源）。少用“electricity”（电）是节约能源的一种直接方式。选项 “rice”（米饭）是食物，与能源无关；而“sunlight”（阳光）是自然能源，人们通常不会通过“少用”它来节约能源。因此，正确答案是 electricity。'
                     },
                     { 
                         id: 5, 
                         options: ['effort', 'mistake', 'rule'], 
                         answer: 'effort', 
-                        explanation: 'The phrase "makes a small effort" means to contribute a little bit to achieve a larger goal. "Mistake" and "rule" do not fit the meaning of the sentence.'
+                        explanation: '“make a small effort” 是一个固定搭配，意为“付出一份小小的努力”。这句话的意思是如果每个人都贡献一份力量，世界就会变得更好。选项 “mistake”（错误）和 “rule”（规则）放入句中语义不通。因此，正确答案是 effort。'
                     }
                 ]
             }

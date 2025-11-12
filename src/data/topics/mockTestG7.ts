@@ -10,14 +10,76 @@ export const mockTestG7Topic: Topic = {
     description: 'BASIS G7 模拟面试，包含常规问答、看图说话和选词填空。',
     sections: [
         {
-            title: '第一部分 常规问答',
+            title: '第一部分 常规回答',
+        },
+        {
+            title: '一、考查个人信息问答',
             questions: [
-                '1. Can you introduce yourself?',
-                '2. What do you like doing in your free time?',
-                '3. What is your greatest strength?',
-                '4. Why do you want to study at our school?',
-                '5. What is your favorite subject?',
-                '6. Tell me about a time you faced a challenge.',
+                '1. Tell me about yourself.',
+                '2. What do you think about your English level?',
+            ],
+        },
+        {
+            title: '二、考查兴趣爱好',
+            questions: [
+                '1. What do you like to do in your spare time?',
+                '2. What are you good at?',
+                '3. Can you recommend me a book? Why?',
+                '根据学生回答的下一个问题:',
+                '4. How often do you ____?',
+                '5. Do you like reading?',
+                '6. Do you like sports?',
+                '7. Do you have any pets in your family? Do you like pets?',
+            ],
+        },
+        {
+            title: '三、考查性格描述',
+            questions: [
+                'How will your best friend describe you.',
+            ],
+        },
+        {
+            title: '四、考查优缺点',
+            questions: [
+                '1. What are your strengths?',
+                '2. What do you want to improve in yourself?',
+            ],
+        },
+        {
+            title: '五、考查个人经历',
+            questions: [
+                'Tell me about a challenge you have faced and how you overcame it.',
+            ],
+        },
+        {
+            title: '六、考查综合素质',
+            questions: [
+                'Do you prefer working alone or in a team? Why?',
+            ],
+        },
+        {
+            title: '七、考查在校情况, 学习科目/校园活动',
+            questions: [
+                '1. What is your favorite subject in the school? Why?',
+                '2. What book have you recently read? What did you learn from it?',
+            ],
+        },
+        {
+            title: '八、考查择校问题',
+            questions: [
+                'What do you know about Basis?',
+            ],
+        },
+        {
+            title: '九、考查未来规划',
+            questions: [
+                'What major do you want to study in university?',
+            ],
+        },
+        {
+            title: '十、其他',
+            questions: [
+                'If you could change one thing about your school, what would it be?',
             ],
         },
         {
@@ -28,31 +90,32 @@ export const mockTestG7Topic: Topic = {
                     imageUrl: 'https://imgsrv2.voi.id/NWty40U3jqCaU-SBICbSkffr7dUIox7HoDl0Nq5hrko/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy81Mjg0MDAvMjAyNTEwMjkxNTI1LW1haW4uanBn.jpg',
                     questions: [
                         'Please describe this picture.',
-                        'What are the family members and the robot doing?',
-                        'How do the people seem to feel about the robot?',
-                        'Do you think robots could be good companions for families in the future? Why or why not?',
-                        'What are the potential benefits and drawbacks of having robots in our homes?',
+                        'What is the robot doing with its hands?',
+                        'How would you describe the robot\'s face?',
+                        'What do you think the robot is trying to communicate?',
+                        'Do you think robots can have feelings like love? Why or why not?',
                     ],
                     thoughts: [
-                        '主体: 一个家庭（父母和女儿）正在客厅里与一个机器人互动。',
-                        '环境: 这是一个温馨的家庭客厅，有沙发和舒适的灯光。',
-                        '动作: 机器人似乎在和孩子说话或玩耍，父母则在一旁微笑地看着。',
-                        '思考/联想: 这幅画让我想到了未来机器人可能成为家庭成员，陪伴孩子成长。这既带来了便利和新奇，也可能引发关于情感连接和过度依赖科技的思考。',
+                        '主体: 一个看起来很像人的机器人。',
+                        '动作: 机器人用双手比出了一个爱心的形状。',
+                        '环境: 背景是黑色的，很简单，让人的注意力都集中在机器人身上。',
+                        '细节: 机器人的脸是灰色的，表情很平静。它的手看起来很复杂，像人的手。',
+                        '思考/联想: 这个动作通常是人类用来表达爱或友好的方式。一个机器人做这个动作，会让人思考机器人是否也能表达情感，或者这只是程序设定好的动作。',
                     ],
                     expressions: [
-                        { term: 'humanoid robot', definition: '人形机器人' },
-                        { term: 'family living room', definition: '家庭客厅' },
-                        { term: 'interacting with', definition: '与……互动' },
-                        { term: 'AI companion', definition: '人工智能伴侣' },
-                        { term: 'emotional connection', definition: '情感连接' },
-                        { term: 'over-reliance on technology', definition: '对科技的过度依赖' },
-                        { term: 'family bonding', definition: '家庭凝聚力' },
+                        { term: 'a robot that looks like a person', definition: '一个人形机器人' },
+                        { term: 'making a heart shape', definition: '比一个心形' },
+                        { term: 'dark background', definition: '深色背景' },
+                        { term: 'calm face', definition: '平静的脸' },
+                        { term: 'show love or friendship', definition: '表达爱或友誼' },
+                        { term: 'express feelings', definition: '表达情感' },
+                        { term: 'programmed to do something', definition: '被编程去做某事' },
                     ],
-                    example: `This picture shows a warm family scene in a living room, where a mother, a father, and their young daughter are interacting with a humanoid robot. The family is sitting together on a couch, and they are all looking at the robot with smiles.
+                    example: `This picture shows a close-up of a robot that looks very much like a person. The background is dark, which makes the robot stand out.
 
-The robot is standing in front of them and seems to be communicating with the little girl, who looks particularly curious and happy. The parents seem relaxed and pleased to see their child engaging with the robot. The atmosphere is very positive and suggests that the robot is a welcome part of their home.
+The robot is using its hands to make a heart shape. This is a sign that people use to show love or friendship. The robot's face is calm and its eyes are looking forward.
 
-This image makes me think about the future role of AI in our daily lives. On one hand, having an AI companion could be very helpful for education and entertainment, especially for children. On the other hand, it's important to consider how this might affect human relationships and whether we might become too dependent on technology. Overall, it's a fascinating glimpse into a possible future.`
+This picture is interesting. It makes me wonder if robots can have feelings. Maybe this robot is trying to say something nice, or maybe it was just programmed by a person to make this heart shape. It shows that robots are becoming more and more like humans.`
                 }
             ]
         },
