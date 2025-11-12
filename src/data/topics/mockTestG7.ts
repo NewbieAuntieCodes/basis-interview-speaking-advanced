@@ -82,7 +82,7 @@ export const mockTestG7Topic: Topic = {
             pictureItems: [
                 {
                     title: '看图说话',
-                    imageUrl: 'https://github.com/user-attachments/assets/74b7829a-2553-4371-9705-01e4e207d570',
+                    imageUrl: 'https://imgsrv2.voi.id/NWty40U3jqCaU-SBICbSkffr7dUIox7HoDl0Nq5hrko/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy81Mjg0MDAvMjAyNTEwMjkxNTI1LW1haW4uanBn.jpg',
                     questions: [
                         'Please describe this picture.',
                         'What is the robot doing?',
