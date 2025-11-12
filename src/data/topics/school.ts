@@ -12,8 +12,8 @@ export const schoolTopic: Topic = {
             title: '一、择校目标',
             questions: [
                 'What are your educational goals and how will our school help you reach them?',
-                'Why do you want to study in Guangdong Experimental High School?',
-                'Why do you choose A-LEVEL programme?',
+                'Why do you want to study in BASIS International School?',
+                'Why do you choose BASIS International School?',
                 'What\'s the most important part of your education?',
             ],
             thoughts: [

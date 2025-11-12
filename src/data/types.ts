@@ -29,6 +29,11 @@ export interface Topic {
     isQuiz?: boolean;
 }
 
+export interface AppCategory {
+  title: string;
+  topics: Topic[];
+}
+
 export interface QuizQuestion {
     id: number;
     options: string[];

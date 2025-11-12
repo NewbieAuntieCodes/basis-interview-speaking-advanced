@@ -4,8 +4,15 @@
 */
 import React, { useState } from 'react';
 import { GlobalStyle } from '../styles/GlobalStyle';
-import { AppContainer, Header, CardsContainer, Card } from './App.styles';
-import { topicsData } from '../data/topicsData';
+import { 
+    AppContainer, 
+    Header, 
+    CardsContainer, 
+    Card,
+    CategoryContainer,
+    CategoryTitle 
+} from './App.styles';
+import { appContentData } from '../data/topicsData';
 import { Topic } from '../data/types';
 import TopicDetail from './TopicDetail';
 import MultipleChoiceQuiz from './MultipleChoiceQuiz';
@@ -39,14 +46,21 @@ const DseSpeakingHubApp: React.FC = () => {
             case 'home':
             default:
                 return (
-                    <CardsContainer>
-                        {topicsData.map((topic, index) => (
-                            <Card key={index} onClick={() => handleCardClick(topic)}>
-                                <h3>{topic.title}</h3>
-                                <p>{topic.description}</p>
-                            </Card>
+                    <>
+                        {appContentData.map((category, catIndex) => (
+                            <CategoryContainer key={catIndex}>
+                                <CategoryTitle>{category.title}</CategoryTitle>
+                                <CardsContainer>
+                                    {category.topics.map((topic, index) => (
+                                        <Card key={index} onClick={() => handleCardClick(topic)}>
+                                            <h3>{topic.title}</h3>
+                                            <p>{topic.description}</p>
+                                        </Card>
+                                    ))}
+                                </CardsContainer>
+                            </CategoryContainer>
                         ))}
-                    </CardsContainer>
+                    </>
                 );
         }
     }

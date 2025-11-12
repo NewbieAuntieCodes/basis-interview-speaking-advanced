@@ -24,6 +24,23 @@ export const Header = styled.header`
     }
 `;
 
+export const CategoryContainer = styled.div`
+    margin-bottom: 50px;
+`;
+
+export const CategoryTitle = styled.h2`
+    font-size: 2.2em;
+    color: #3a4a62;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e2e8f0;
+
+    @media (max-width: 768px) {
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    }
+`;
+
 export const CardsContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
